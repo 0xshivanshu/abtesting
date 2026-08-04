@@ -1,13 +1,13 @@
 # A/B Experimentation and Conversion Funnel Evaluation
 
 **Tools:** SQL (BigQuery) · Power BI
-**Data source:** [GA4 Obfuscated Sample E-commerce Dataset](https://console.cloud.google.com/bigquery(product)/analytics-hub/exchanges) — `bigquery-public-data.ga4_obfuscated_sample_ecommerce`
+**Data source:** [GA4 Obfuscated Sample E-commerce Dataset](https://console.cloud.google.com/bigquery(product)/analytics-hub/exchanges) - `bigquery-public-data.ga4_obfuscated_sample_ecommerce`
 
 ## Project Overview
 
 This project simulates a controlled A/B experiment on top of real Google Analytics 4 (GA4)
-e-commerce event data from the Google Merchandise Store. It builds a full pipeline —
-from raw event data to a statistically validated conversion lift to a reporting dashboard —
+e-commerce event data from the Google Merchandise Store. It builds a full pipeline -
+from raw event data to a statistically validated conversion lift to a reporting dashboard -
 mirroring how a data/analytics team would evaluate a product experiment end-to-end.
 
 **Funnel stages analyzed:**
@@ -16,7 +16,7 @@ mirroring how a data/analytics team would evaluate a product experiment end-to-e
 ## Methodology Note (read this first)
 
 The GA4 public dataset reflects **real user behavior**, but it does not contain an actual
-A/B test — there is no "control" vs "variant" experience baked into the data. To build this
+A/B test - there is no "control" vs "variant" experience baked into the data. To build this
 project:
 
 1. Every user was **randomly and deterministically** assigned to a `control` or `variant`
