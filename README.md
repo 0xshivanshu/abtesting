@@ -26,7 +26,7 @@ project:
    users who reached checkout but did not purchase were flipped to "converted," simulating
    the effect of a real UX improvement.
 3. All underlying behavioral data (page views, cart adds, checkout starts) is 100% real GA4
-   data — only the group assignment and the lift are synthetic.
+   data - only the group assignment and the lift are synthetic.
 
 This is a standard, transparent technique for building experimentation portfolio projects
 on top of observational data, and is disclosed here for full transparency.
